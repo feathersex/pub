@@ -1,0 +1,27 @@
+header{
+    background: #333;
+}
+#nav{
+    color: #bbb;
+}
+#nav a:hover{
+    color: #ffffff;
+}
+#search{
+    
+}
+article #main-img #img-block{
+    background: green;
+}
+article #main-img #side-menu{
+    background: rgba(0, 0, 0, 0.6);
+}
+article #home-sub .menu-sub{
+    
+}
+article #home-sub .img-sub{
+    background: #333;
+}
+article #img-bottom{
+    background: #444;
+}

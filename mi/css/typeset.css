@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    min-width: 1226px;
+    height: 40px;
+}
+header #nav{
+    height: 100%;
+    width: 1226px;
+    margin: 0 auto;
+}
+article #search{
+    width: 1226px;
+    height: 60px;
+    margin: 22px auto;
+}
+article #main-img{
+    width: 1226px;
+    height: 460px;
+    margin: 0px auto;
+    position: relative;
+}
+article #main-img #img-block{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+article #main-img #side-menu{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 234px;
+    height: 460px;
+}
+article #home-sub{
+    width: 1226px;
+    height: 170px;
+    margin: 15px auto;
+}
+article #home-sub .menu-sub{
+    height: 170px;
+    width: 234px;
+    float: left;
+}
+.img-sub{
+    height: 170px;
+    width: 316px;
+    float: left;
+    margin-left: 15px;
+}
+.menu-sub + .img-sub{
+    margin-left: 14px;
+}
+article #img-bottom{
+    width: 1226px;
+    height: 120px;
+    margin: 25px auto;
+}

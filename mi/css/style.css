@@ -1,0 +1,177 @@
+
+i{
+    font-style: normal;
+}
+input { 
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+ }
+#nav a{
+    display: inline-block;
+    font-size: 0.75em;
+    line-height: 40px;
+    vertical-align: middle;
+}
+#nav span{
+    margin: 1px;
+    color: #424242;
+}
+#nav #nav-right{
+    height: 40px;
+    width: 280px;
+    float: right;
+    position: relative;
+}
+#nav #shopping{
+    display: inline-block;
+    height: 40px;
+    width: 120px;
+    background: #424242;
+    position: absolute;
+    right: 0px;
+}
+#nav #shopping a:hover{
+    color: #FF6752;
+}
+#nav #shopping:hover{
+    background: #fff;
+}
+#nav #shopping a{
+    width: 120px;
+    text-align: center;
+}
+article #mi-logo{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+article #mi-logo #logo{
+    width: 56px;
+}
+article #search #logo-link{
+    height: 60px;
+    width: 985px;
+    float: right;
+}
+.a-link{
+    display: inline-block;
+    height: 60px;
+   
+}
+.a-link span{
+    display: block;
+    margin: 18px auto;
+    padding: 0 7px;
+}
+.a-link:hover{
+    color: #FF6752;
+}
+#input{
+    float: right;
+    width: 299px;
+    height: 50px;
+    position: relative;
+}
+#input #search-text{
+    margin: 0px;
+    width: 245px;
+    height: 50px;
+    border: 1px solid #ddd;
+    font-size: 1.1em;
+    text-indent: 1em;
+    position: absolute;
+    right: 51px;
+    top: 0px;
+}
+#input #search-b{
+    padding: 0px;
+    margin: 0;
+    box-sizing: content-box;
+    user-select: none;
+    display:block;
+    width: 51px;
+    height: 52px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-left: 0px;
+    text-align: center;
+    font-family: "FontAwesome" !important;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+#input #search-text:hover{
+    border: 1px solid #aaa;
+}
+#input #search-text:focus{
+    border: 1px solid #FF6752;
+}
+/*----------------------------------------------------------------*/
+#input > *:hover{
+    border: 1px solid #aaa;
+    border-left: 0px;
+}
+#input > *:focus{
+    border: 1px solid #FF6752;
+    border-left: 0px;
+}
+#input #search-b:hover{
+    background: #FF6752;
+    color: #fff;
+}
+#input #search-b:hover~#search-text{
+    border: 1px solid #aaa;
+}
+#img-block img,.img-sub img,#img-bottom img{
+    width: 100%;
+    height: 100%;
+}
+#side-menu ul{
+    margin: 9% 0;
+    height: 420px;
+    list-style-type: none;
+    list-style-position: outside;
+    padding: 0;
+    text-indent: 2em;
+    color: #fff;
+    font-size: .9em;
+
+}
+#side-menu ul li{
+    padding: 11px 0px;
+}
+#side-menu ul li:hover{
+    background: #FF6752;
+}
+#side-menu ul li i{
+    float: right;
+    margin-right: 20px;
+    color: #aaa;
+}
+.home-channel-list{
+    margin: 0;
+    padding: 3px;
+    list-style-type: none;
+    font-size: 12px;
+    text-align: center;
+    background: #5f5750;
+    width: 228px;
+    height: 164px;
+}
+.home-channel-list li{
+    position: relative;
+    float: left;
+    width: 70px;
+    height: 82px;
+    padding: 0 3px;
+    color: #ccc;
+}
+.home-channel-list li i{
+    padding-top:12px;
+    padding-bottom:7px;  
+    font-size:28px; 
+}
+.home-channel-list a:hover {
+    color: #fff;
+}
